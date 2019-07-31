@@ -23,6 +23,19 @@ public class MatematicaTest {
 		} else {
 			System.out.println("O número analisado não tem raiz quadrada");
 		}
+		
+		double soma = m.soma(2,3,4,5,6,7,8,9);
+		System.out.println("a soma é "+soma);
+		
+		double[] numerosArray = {1,2,3,4,5,6,7,8,9};
+		double somaArray = m.somaArray(numerosArray);
+		System.out.println("a soma Array é "+somaArray);
+		
+		System.out.print(" = " + m.media("5", "3")+"\n");
+		System.out.print(" = " + m.media(5, 3)+"\n");
+		System.out.print(" = " + m.media(5,4,2,3,1)+"\n");
+		System.out.print(" = " + m.media(5)+"\n");
+		
 	}
 
 }
