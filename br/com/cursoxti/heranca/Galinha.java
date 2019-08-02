@@ -6,4 +6,7 @@ public class Galinha extends Animal {
 		super(2,"Milho");
 	}
 
+	void fazerBarulho(){
+		System.out.println("Có, Có!");
+	}
 }

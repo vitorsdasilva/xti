@@ -1,6 +1,7 @@
 package br.com.cursoxti.heranca;
 
-public class Animal {
+//classe abstrata não pode ser instanciada
+public abstract class Animal {
 	
 	protected int serial;
 	double peso;
@@ -14,6 +15,6 @@ public class Animal {
 	}
 	
 	void dormir(){System.out.println("Dormiu");}
-	void fazerBarulho(){System.out.println("Fazer barulho");}
+	abstract void fazerBarulho();
 
 }
