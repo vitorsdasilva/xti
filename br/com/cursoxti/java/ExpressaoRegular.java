@@ -22,10 +22,16 @@ public class ExpressaoRegular {
 		// System.out.println(b);
 
 		/*
-		 * METACARACTERES (indicam a ocoência de números, letras etc. . qualquer
-		 * caractere \d dígitos [0-9] \D não é dígito [^0-9] \s espaços [
-		 * \t\n\x0B\f\r] \S não é espaço [^\s] \w letra ou digito [a-zA-Z_0-9]
-		 * \W não é letra
+		 * METACARACTERES (indicam a ocoência de números, letras etc. 
+		 * 	. qualquer	caractere 
+		 * 
+		 * 	\d dígitos [0-9] 
+		 * 	\D não é dígito [^0-9] 
+		 * 	\s espaços 
+		 *	\t\n\x0B\f\r] 
+		 *	\S não é espaço [^\s] 
+		 *	\w letra ou digito [a-zA-Z_0-9]
+		 * 	\W não é letra
 		 */
 
 		boolean b = "@".matches(".");
@@ -40,8 +46,11 @@ public class ExpressaoRegular {
 		// System.out.println(b);
 
 		/*
-		 * QUANTIFICADORES X{n} X, exatamente n vezes X{n,} X, pelo menos n
-		 * vezes X{n,m} X, pelo menos n mas não mais do que m vezes X? X, 0 ou 1
+		 * QUANTIFICADORES 
+		 * 	X{n} 	X, exatamente n vezes 
+		 * 	X{n,} 	X, pelo menos n vezes 
+		 * 	X{n,m}	X, pelo menos n mas não mais do que m vezes 
+		 * 	X? X, 0 ou 1
 		 * vez X* X, 0 ou + vezes X+ X, 1 ou mais vezes
 		 */
 

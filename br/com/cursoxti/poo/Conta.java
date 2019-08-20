@@ -4,8 +4,33 @@ public class Conta {
 
 	String cliente;
 	double saldo;
+	
+	public Conta (){}
+	
+	public Conta(String cliente, double saldo){
+		this.cliente = cliente;
+		this.saldo = saldo;
+		
+	}
+	
+	public String getCliente(){
+		return cliente;
+	}
+	
+	public double getSaldo(){
+		return saldo;
+	}
+	
+	public void setCliente(String cliente){
+		this.cliente=cliente;
+	}
+	
+	public void setSaldo(double saldo){
+		this.saldo=saldo;
+	}
+	
 
-	void exibeSaldo() {
+	public void exibeSaldo() {
 		System.out.println(cliente + " seu saldo é " + saldo);
 
 	}

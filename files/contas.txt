@@ -1,0 +1,4 @@
+Ricardo;12000.23
+Laurence;11050.23
+Sandra ;18000.21
+Beatriz;23200.09
