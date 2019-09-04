@@ -30,8 +30,8 @@ public class Arquivo3 {
 		
 		Arquivo3 operacao = new Arquivo3();
 		//operacao.ArmazenaContas(contas);
-		ArrayList<Conta> contas2 = operacao.recuperarConta();
-			for (Conta conta : contas2){
+		//ArrayList<Conta> contas2 = operacao.recuperarConta();
+			for (Conta conta : operacao.recuperarConta()){
 				conta.exibeSaldo();
 			}
 		
