@@ -3,7 +3,8 @@ package br.com.cursoxti.poo;
 public class Conta implements java.io.Serializable {
 
 	String cliente;
-	transient double saldo;
+	//transient double saldo;
+	double saldo;
 	
 	public Conta (){}
 	
