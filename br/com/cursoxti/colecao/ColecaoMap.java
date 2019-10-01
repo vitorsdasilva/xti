@@ -23,6 +23,7 @@ public class ColecaoMap {
 		System.out.println(pais);
 		
 		
+		
 		Set<String> keys = pais.keySet();
 		for (String key : keys){
 			System.out.println(key + ":" + pais.get(key));
