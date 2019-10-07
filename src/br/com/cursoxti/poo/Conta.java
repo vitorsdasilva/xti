@@ -1,10 +1,11 @@
 package br.com.cursoxti.poo;
 
+@SuppressWarnings("serial")
 public class Conta implements java.io.Serializable {
 
-	String cliente;
+	public String cliente;
 	//transient double saldo;
-	double saldo;
+	public double saldo;
 	
 	public Conta (){}
 	
@@ -47,7 +48,7 @@ public class Conta implements java.io.Serializable {
 		// entregar o dinheiro ao cliente
 	}
 
-	void deposita(double valor) {
+	public void deposita(double valor) {
 		saldo += valor;
 	}
 
